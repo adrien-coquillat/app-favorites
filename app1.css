@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+body {
+    background-color: bisque;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+}
+
+.entete {
+    background-color: bisque;
+    width: 350px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+a {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: blue;
+    text-shadow: 1px 1px 1px white, 0 0 1em white, 0 0 0.2em white;
+    transition: transform 1.2s;
+}
+
+.entete a:hover {
+    color: green;
+    transform: scale(1.5);
+}
+
+.titre {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.description p {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    margin-right: 5vw;
+    line-height: 2em;
+}
+
+.combattez {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    border-top: 1px solid goldenrod;
+}
+
+.combattez .img1 {
+    width: 40%;
+}
+
+.combattez .img2 {
+    width: 30%;
+}
+
+.myP {
+    width: 30%;
+    line-height: 2em;
+    text-align: center;
+}
+
+.champion {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    border-top: 1px solid goldenrod;
+}
+
+.champion p {
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    line-height: 2em;
+}
+
+.champion img {
+    box-shadow: 1em 1em 1em grey;
+    margin-top: 5vh;
+}
+
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+}
+
+footer a {
+    color: blue;
+    font-size: 30px;
+    text-decoration: none;
+    transition: transform 1.2s;
+    text-shadow: 1px 1px 1px white, 0 0 1em white, 0 0 0.2em white;
+}
+
+footer p {
+    color: white;
+    font-size: 30px;
+}
+
+footer a:hover {
+    color: green;
+    transform: scale(1.5);
+}
